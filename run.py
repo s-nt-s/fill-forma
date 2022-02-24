@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import argparse
 import sys
+from datetime import datetime
+import time
+
 from os.path import isfile
 
 from core.util import get_config
@@ -15,6 +18,12 @@ if not isfile(pargs.config):
     sys.exit(pargs.config+" no existe")
 
 c = get_config(pargs.config)
+
+ini, fin = c.get('ini', 0), c.get('fin', 24)
+while not(datetime.now().hour>=ini and datetime.now().hour<fin):
+    time.sleep(1)
+    print("Esperando a [%s-%s]" % (ini, fin), end="\r")
+print("")
 
 w = FF(visible=not pargs.hide, tries=4)
 w.refresh_until(c.url, list(c.campos.keys())[0], seconds=2)

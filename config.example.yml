@@ -1,4 +1,6 @@
 url: https://forma.administracionelectronica.gob.es/form/open/corp/8436/uFmt
+ini: 9
+fin: 13
 campos:
   "(//select)[1]": 'GSI - Promoción Interna'
   "(//select)[2]": 'LUNES - 09.00H'
