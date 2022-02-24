@@ -1,0 +1,7 @@
+url: https://forma.administracionelectronica.gob.es/form/open/corp/8436/uFmt
+campos:
+  "(//select)[1]": 'GSI - Promoción Interna'
+  "(//select)[2]": 'LUNES - 09.00H'
+  "(//input)[1]": "84956619R"
+  "(//input)[2]": "qasde3211@hotmail.com"
+  "(//textarea)[1]": "Juan García García"
