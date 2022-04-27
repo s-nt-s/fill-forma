@@ -1,12 +1,14 @@
 Rellena y enviá automáticamente formularios Forma
 
-Requisitos:
+# Requisitos
 
 ```console
 pip3 install -r requirements.txt
 ```
 
-Ejecución:
+Y tener en el PATH del sistema el [geckodriver de firefox](https://github.com/mozilla/geckodriver/releases)
+
+# Ejecución
 
 ```console
 python3 run.py config.yml
