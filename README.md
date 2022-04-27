@@ -6,7 +6,7 @@ Rellena y enviá automáticamente formularios Forma
 pip3 install -r requirements.txt
 ```
 
-Y tener en el PATH del sistema el [geckodriver de firefox](https://github.com/mozilla/geckodriver/releases)
+Y tener en la variable de entorno PATH el [geckodriver de firefox](https://github.com/mozilla/geckodriver/releases)
 
 # Ejecución
 
